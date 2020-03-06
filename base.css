@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+@media(min-width: 0px){
+    .col-s-1{width: 8.33%;}
+    .col-s-2{width: 16.66%;}
+    .col-s-3{width: 25%;}
+    .col-s-4{width: 33.33%;}
+    .col-s-5{width: 41.66%;}
+    .col-s-6{width: 50%;}
+    .col-s-7{width: 58.33%;}
+    .col-s-8{width: 66.66%;}
+    .col-s-9{width: 75%;}
+    .col-s-10{width: 83.33%;}
+    .col-s-11{width: 91.66%;}
+    .col-s-12{width: 100%;}
+}
+
+@media(min-width: 768px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width: 50%;}
+    .col-m-7{width: 58.33%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 91.66%;}
+    .col-m-12{width: 100%;}
+}
+
+
+[class *= "col-"]{
+    float: left;
+}
+
+.row::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+
+
+.p-1{padding: 1em;}
+
+.text_center{text-align: center;}
+
+.border-1{border: 1px solid black;}
+
+.color-1{background-color: red; color: white;}
+.color-morado{background-color: purple; color: white;}
+.color-verde{background-color: green; color: white;}
+.color-azul{background-color: blue; color: white;}
+.color-amarillo{background-color: yellow; color: white;}
+.color-naranja{background-color: orange; color: white;}
+
+.title-1{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-size: 2em;}
+
+.title-2{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 1.5em;}
+
+.content-1{font-family: Arial, Helvetica, sans-serif;
+                font-size: 1em;}
+
+.pb{border-bottom: 0.5em solid lightgrey;}
+
+.pd-1{padding: 1em;}
+
+.mar-1{margin-left: 0.1em;}
+
+.mar-2{margin-right: 0.1em;}
+
+
+.pb-1{padding-bottom: 0.5em;}
+
+.bb{ border-bottom: solid 1px lightgray;}
+
+.flex_container div{
+    background-color: cadetblue;
+    font-size: 2em;
+    padding: 0.5em;
+    margin: 0.1em;
+
+}
+
+.flex_container{
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 400px;
+    align-items: baseline;
+    align-content: center;
+}
+         
+
+
+/*html{background-color:brown;}*/
